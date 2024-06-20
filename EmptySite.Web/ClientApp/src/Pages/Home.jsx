@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootswatch/dist/morph/bootstrap.min.css";
 import './Home.css';
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
                     That being the case because I do not have any ideas of what to put on to this
                     amazing, inspirational site. If you do not like the awesomeness of emptiness, too bad.
                     But if you have an idea of what I can put on here...</p>
-                <a href='/comments' className='btn btn-outline-info'>Give me a suggestion!</a>
+                <a href='/comments' className='btn btn-light'>Give me a suggestion!</a>
             </div>
         </div>
     )

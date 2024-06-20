@@ -1,7 +1,7 @@
 ﻿
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Home.css';
+import "bootswatch/dist/morph/bootstrap.min.css";
+
 
 const Comments = () => {
 
@@ -20,7 +20,7 @@ const Comments = () => {
             <hr />
             <textarea className='form-control mb-2' rows="3" placeholder='Write your comments here' value={comment} onChange={e => setComment(e.target.value) } />
             <br />
-            <button className='btn btn-info' onClick={onButtonClick}>Submit</button>
+            <button className='btn btn-light' onClick={onButtonClick}>Submit</button>
             <br />
             {!!message && <h3>{message}</h3> }
         </div>
